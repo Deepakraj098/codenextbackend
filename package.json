@@ -4,10 +4,13 @@
   "description": "server for code next project",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "author": "Deepak Kumar",
   "license": "ISC",
+  "engines": {
+    "node": "18.16.1"
+  },
   "dependencies": {
     "body-parser": "^1.20.0",
     "cors": "^2.8.5",
@@ -16,4 +19,5 @@
     "mysql2": "^2.3.3",
     "nodemon": "^2.0.20"
   }
+
 }
